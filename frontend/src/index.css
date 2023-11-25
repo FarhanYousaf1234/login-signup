@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+.form-container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  flex-direction: column;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #0c0c0c 0%, #b5fffc 100%);
+
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.form-container form input {
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+}
+
+
+.form-container form a {
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 0;
+  background-color: #000000;
+  color: rgb(255, 254, 254);
+  width: 150px;
+  padding: 10px;
+  position: relative;
+  left: 130px;
+  top: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form-container form a:hover {
+  background-color: rgba(5, 141, 252, 0.619);
+  color: black;
+  
+}
+.form-container form button {
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 0;
+  background-color: #000000;
+  color: rgb(255, 254, 254);
+  width: 93px;
+  padding: 10px;
+  position: relative;
+  left: 20px;
+  top: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form-container form button:hover {
+  background-color: rgba(5, 141, 252, 0.619);
+  color: black;
+}
+.homepage button{
+  position: relative;
+  left: 200vh;
+  bottom: 70px;
+  width: 80px;
+  background-color: black;
+   color: wheat;
+   cursor: pointer;
+   height: 30px;
+   font-size: larger;
+}
